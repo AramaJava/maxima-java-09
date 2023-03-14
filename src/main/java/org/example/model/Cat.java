@@ -52,5 +52,13 @@ public class Cat {
         isAngry = angry;
     }
 
-
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", weight=" + weight +
+                ", isAngry=" + isAngry +
+                '}';
+    }
 }

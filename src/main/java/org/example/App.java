@@ -33,12 +33,5 @@ public class App
 
 
 
-
-
-        System.out.println("Коты");
-        repoCat.findAll().forEach(System.out::println);
-
-
-
     }
 }
